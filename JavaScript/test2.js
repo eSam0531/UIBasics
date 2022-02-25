@@ -1,3 +1,31 @@
+/*
+Programming paradigms:
+ defined as approach to solve problem using some programming language
+ also can say it is a method to solve a problem using tools and techniques
+    that are available to us following some approach.
+
+ 1. Imparative -> works by changing the program state through assignment statements
+        Performs step by step tasks, main focus is to achieve the goal
+        Just commands for the computer program to perform.
+    * Procedural -> emphasizes on procedure in terms of under lying machine model. 
+        no difference between procedural and imperative.
+    * Object Oriented -> written as a collection of classes and object which are meant for
+        communication. More emphasis on data rather than procedure.
+    * Parallel processing -> processing of program instructions by dividing them among
+        multiple processors. Objective is to run program in less time by dividing the tasks.
+ 2. Declarative -> expresses logic of computation without talking about its control flow. 
+        Focus is on what needs to be done rather than how it should be done.
+    * Logic -> abstract model of computation. We have the knowledge base which we know before
+        and along with the question and knowledge base which is given to machine, it produces
+        result.
+    * Functional -> roots in mathematics and is language independed. Key principal is the 
+        execution of mathematical functions. Central model for abstraction is the function
+        which are meant for some specific computation and not the data structure. Data are
+        loosly coupled to functions. Functions hide their implementation. 
+    * Database/Data driven -> statements are defined by data rather than hard-coding a series
+        of steps. 
+*/
+
 // impeartive way of programming
 let list = [1, 2, 3];
 
@@ -44,3 +72,4 @@ console.log(addToThis.call(obj1,1,2));
 // used only for arrays
 let list2 = [4,5,6];
 console.log(addToThis.apply(obj1,list2));
+
